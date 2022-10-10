@@ -1,0 +1,97 @@
+.HeroCard {
+  flex: 1;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  border-radius: 5px;
+}
+
+.HeroCardPar {
+  color: rgb(230, 220, 220);
+}
+
+.Table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.TableRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Sz-5 {
+  flex: 5;
+}
+.Sz-3 {
+  flex: 3;
+}
+.Sz-2 {
+  flex: 2;
+}
+.TableHead {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TableData {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Opacity {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pagination {
+  display: flex;
+  color: white;
+  list-style: none;
+  gap: 3px;
+}
+.prevPaginate {
+  height: 25px;
+  padding: 0 5px;
+  text-align: center;
+  border-radius: 3px;
+}
+.pageClass {
+  width: 30px;
+  height: 25px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.PaginateMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TableButton {
+  height: 30px;
+  padding: 0 20%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.symbol {
+  display: flex;
+  gap: 15px;
+}
+.Icon {
+  width: 25px;
+  height: 25px;
+}
+.pagination__link--active {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  color: black;
+}

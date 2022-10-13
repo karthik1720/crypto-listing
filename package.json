@@ -1,7 +1,8 @@
 {
   "name": "stock",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "/",
+  "private": false,
   "proxy": "https://karthik-crypto.herokuapp.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

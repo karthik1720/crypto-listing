@@ -2,7 +2,7 @@ import React from "react";
 
 import "./components.css";
 
-function List({ posts }) {
+function List({ posts, handleSave }) {
   return (
     <div>
       <table className="Table">
@@ -22,7 +22,14 @@ function List({ posts }) {
               </td>
               <td className="TableData Sz-3">{i.price}</td>
               <td className="TableData Sz-2">
-                <button className="TableButton">Save</button>
+                <button
+                  className="TableButton"
+                  onClick={() => {
+                    handleSave(i);
+                  }}
+                >
+                  Save
+                </button>
               </td>
             </tr>
           ))}

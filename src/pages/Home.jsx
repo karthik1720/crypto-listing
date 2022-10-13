@@ -7,7 +7,7 @@ import { useState } from "react";
 import CustomPaginate from "../components/CustomPaginate";
 function Home({ api, url, responseType, save }) {
   const [data, setData] = useState([]);
-  const [postsPerPage] = useState(10);
+  const [postsPerPage] = useState(8);
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(true);
   const [response, setResponse] = useState(true);

@@ -57,3 +57,12 @@
   height: 30px;
   color: white !important;
 }
+.Link {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-around;
+}
+.textDec {
+  color: white;
+}

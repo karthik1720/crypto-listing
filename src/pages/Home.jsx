@@ -53,8 +53,22 @@ function Home({ api, url, responseType, save }) {
   return (
     <div className="HomeContainer Gradient">
       <div className="TitleWrapper Opacity">
-        <Link to="/savedcrypto" onClick={handleRes}>
-          <h1 className="Title">Crypto Listing</h1>
+        <h1 className="Title">Crypto Listing</h1>
+      </div>
+      <div className="Opacity Link">
+        <Link
+          to="/"
+          style={{ paddingLeft: 13, textDecoration: "none" }}
+          onClick={handleRes}
+        >
+          <h1 className="textDec">Live Data</h1>
+        </Link>
+        <Link
+          to="/savedcrypto"
+          style={{ paddingLeft: 13, textDecoration: "none" }}
+          onClick={handleRes}
+        >
+          <h1 className="textDec">Saved Data</h1>
         </Link>
       </div>
 

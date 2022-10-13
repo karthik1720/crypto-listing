@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import { Link } from "react-router-dom";
 import List from "../components/List";
 import "./Home.css";
 
@@ -39,7 +39,9 @@ function Home() {
   return (
     <div className="HomeContainer Gradient">
       <div className="TitleWrapper Opacity">
-        <h1 className="Title">Crypto Listing</h1>
+        <Link to="/savedcrypto">
+          <h1 className="Title">Crypto Listing</h1>
+        </Link>
       </div>
       <div className="HeroCardContainer">
         {/* <HeroCard></HeroCard>
